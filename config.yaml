@@ -11,26 +11,27 @@ params:
     favicon:
 
     footer:
-        since:
-        customText:
+        since: 2024
+        customText: A part of <b>VISION IT 67</b> project
 
     dateFormat:
         published: Jan 02, 2006
         lastUpdated: Jan 02, 2006 15:04 MST
 
+
     sidebar:
         compact: false
         emoji:
-        subtitle:
+        subtitle: All your SAMO-related works
         avatar:
-            enabled: true
+            enabled: false
             local: true
             src: img/avatar.png
 
     article:
         math: false
         toc: true
-        readingTime: true
+        readingTime: false
         license:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
@@ -139,10 +140,73 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto
+        default: light
 
     imageProcessing:
         cover:
             enabled: true
         content:
             enabled: true
+
+# /// Menu items
+
+# List menu that are EXTERNAL here only.
+# If the entity is internal link, use frontmatter in that page
+
+menu:
+    main:
+    - identifier: "booking"
+      name: "ระบบจองห้อง"
+      url: "https://vichakarn-md.web.app/reserve"
+      weight: -90
+      params:
+      newTab: true
+
+    - identifier: "document"
+      name: "ยื่นขอเอกสาร"
+      url: "/"
+      weight: -70
+      params:
+      newTab: true
+
+    - identifier: "document"
+      name: "ติดตามโครงการและปัญหา"
+      url: "/"
+      weight: -75
+      params:
+      newTab: true
+
+    - identifier: "guide"
+      name: "Survival Guide"
+      url: "/"
+      weight: -50
+      params:
+      newTab: true
+    
+    - identifier: "project"
+      name: "เขียนโครงการ"
+      url: "/"
+      weight: -100
+      params:
+      newTab: true
+    
+    - identifier: "mental"
+      name: "Mental Support"
+      url: "/"
+      weight: 100
+      params:
+      newTab: true
+    
+    - identifier: "calendar"
+      name: "ปฏิทินกิจกรรม"
+      url: "/"
+      weight: -100
+      params:
+      newTab: true
+
+    - identifier: "mddatabase"
+      name: "MD Database"
+      url: "/"
+      weight: -10
+      params:
+      newTab: true
