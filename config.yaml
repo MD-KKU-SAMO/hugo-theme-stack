@@ -183,7 +183,7 @@ menu:
       newTab: true
 
     - identifier: "broken"
-      name: "แจ้งทรัพสินธุ์เสียหาย"
+      name: "แจ้งทรัพย์สินเสียหาย"
       url: "/"
       weight: -78
       params:
