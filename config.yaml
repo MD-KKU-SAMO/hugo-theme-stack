@@ -226,7 +226,7 @@ menu:
 
     - identifier: "mddatabase"
       name: "MD Database"
-      url: "/"
+      url: "https://mdkku-database.super.site"
       weight: -10
       params:
       newTab: true
