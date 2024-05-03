@@ -230,3 +230,10 @@ menu:
       weight: -10
       params:
       newTab: true
+
+    - identifier: "contact-us"
+      name: "ติดต่อเรา"
+      url: "/"
+      weight: 105
+      params:
+      newTab: true
