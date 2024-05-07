@@ -213,7 +213,7 @@ menu:
     - identifier: "mental"
       name: "Mental Support"
       url: "/"
-      weight: 100
+      weight: 95
       params:
       newTab: true
     
@@ -226,7 +226,7 @@ menu:
 
     - identifier: "mddatabase"
       name: "MD Database"
-      url: "/"
+      url: "https://mdkku-database.super.site"
       weight: -10
       params:
       newTab: true
