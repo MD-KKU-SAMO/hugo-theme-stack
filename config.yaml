@@ -190,8 +190,8 @@ menu:
       newTab: true
 
     - identifier: "follow"
-      name: "ติดตามโครงการและปัญหา"
-      url: "/"
+      name: "ติดตามสถานะคำร้อง"
+      url: "https://tasks.office.com/kkumail.onmicrosoft.com/Home/PlanViews/-o-Pki6j9Uyu4yQc-s5_3MgAC2e3?Type=PlanLink&Channel=Link&CreatedTime=638500693641670000"
       weight: -75
       params:
       newTab: true
